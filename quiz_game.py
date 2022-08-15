@@ -10,10 +10,10 @@ score = 0
 
 answer = input('Cuántos tatuajes tiene Pablo? ')
 if answer.lower() == 'uno':
-    print('correct0!')
+    print('correcto!')
     score += 1
 else:
-    print('incorrect0')
+    print('incorrecto')
 
 answer = input('Qué dice el tatuaje de Pablo? ')
 if answer.lower() == 'grunge':
